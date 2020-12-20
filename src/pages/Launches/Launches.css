@@ -1,0 +1,33 @@
+html {
+  background-color: #F5F5F5;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+  margin: 1.2rem 0;
+}
+
+.seeMore {
+  border: none;
+  background: transparent;
+  margin: 0 auto 6vh auto;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+}
+.seeMore img {
+  margin-right: 10px;
+  height: 10px;
+  width: 12px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=Launches.css.map */

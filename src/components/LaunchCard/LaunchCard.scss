@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+$background: #EEEEEE;
+
+.launchCard {
+  width: 1000px;
+  height: 138px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  margin: 4vh auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+
+  .row {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+
+    div {
+      width: 500px;
+      overflow: hidden;
+    }
+  }
+
+  .patch-container {
+    background-color: $background;
+    border-radius: 16px 0 0 16px;
+    width: 138px;
+    height: 138px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mission-patch {
+      width: 98px;
+      height: 98px;
+    }
+  }
+
+  .mission-name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    margin-top: 16px;
+  }
+
+  .mission-number {
+    color: #BDBDBD;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 16px 8px 0 16px;
+  }
+
+
+  .launch-result {
+    height: 24px;
+    font-size: 14px;
+    border-radius: 16px;
+    padding: 4px 16px;
+    margin: 17px 0 0 16px;
+  }
+
+  .fail {
+    background-color: #FFCDD2;
+    color: #EF5350;
+  }
+
+  .success {
+    background-color: #B2DFDB;
+    color: #26A69A;
+  }
+
+  .upcoming {
+    background-color: #B3E5FC;
+    color: #42A5F5;
+  }
+
+  .launch-date {
+    color: #7D7D7D;
+    margin: 16px 0 0 16px;
+  }
+
+  .mission-details {
+    color: #212121;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 8rem 8px 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 595px;
+    height: 32px;
+  }
+
+  .article-link {
+    width: 17px;
+    height: 18px;
+    margin-left: 0.8rem;
+  }
+
+  .watch-icon {
+    width: 13.3px;
+    height: 13.3px;
+    margin-top: 0.16rem;
+    margin-right: 0.2rem;
+  }
+
+  .watch-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #D50000;
+    width: 55px;
+    height: 19px;
+  }
+
+}
+
+

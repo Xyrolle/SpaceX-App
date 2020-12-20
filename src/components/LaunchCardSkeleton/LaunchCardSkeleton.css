@@ -1,0 +1,23 @@
+.skeleton .placeholder {
+  background-color: #E0E0E0;
+  border-radius: 16px;
+}
+.skeleton .launch-result {
+  width: 69px;
+  height: 25px;
+}
+.skeleton .mission-details {
+  width: 533px;
+  height: 16px;
+}
+.skeleton .mission-name {
+  width: 130px;
+  height: 25px;
+  margin-left: 16px;
+}
+.skeleton .launch-date {
+  width: 198px;
+  height: 15px;
+}
+
+/*# sourceMappingURL=LaunchCardSkeleton.css.map */
